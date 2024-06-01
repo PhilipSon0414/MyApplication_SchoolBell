@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Bell Ring-Ring-Ring"
+        android:textSize="24sp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/study_time_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Study time in minutes"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/break_time_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Break time in minutes"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/session_count_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of sessions"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"/>
+
+    <Button
+        android:id="@+id/pause_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timer: 00:00"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
